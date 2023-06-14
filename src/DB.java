@@ -8,8 +8,8 @@ public class DB {
 	private final String SERVER = "localhost";
 	private final String PORT = "3306";
 	private final String DB = "alumno";
-	private final String USER = "root";
-	private final String PASS = "1234";
+	private final String USER = "";
+	private final String PASS = "";
 	private final String URL = "jdbc:mysql://" + SERVER + ":" + PORT + "/" + DB;
 
 	public ArrayList<Alumno> buscarAlumnos(String busqueda, String ordenar, String ordenacion, String cantidad, String por) {
